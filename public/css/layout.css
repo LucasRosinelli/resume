@@ -33,7 +33,10 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   /* background: #161415 url(../images/fiber-optics.jpg) no-repeat top center; source: https://www.freeimages.com/photo/fiber-optics-1631905 */
+   background: #161415 url(../images/mountain-sunrise.jpg) no-repeat top center; /* source: https://www.freeimages.com/photo/mountain-sunrise-1364527 */
+   /* background: #161415 url(../images/sunrise-panorama.jpg) no-repeat top center; source: https://www.freeimages.com/photo/sunrise-panorama-1399067 */
+   /* background: #161415 url(../images/sunrise.jpg) no-repeat top center; source: https://www.freeimages.com/photo/sunrise-4-1387467 */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -52,7 +55,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -161,7 +164,6 @@ ul#nav li {
 
 /* Links */
 ul#nav li a {
-
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
@@ -261,7 +263,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .certification {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
