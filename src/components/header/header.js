@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
+    let resumeData = this.props.resumeData;
     return (
         <React.Fragment>
             <header id="home">
@@ -18,9 +19,9 @@ export default class Header extends Component {
                 </nav>
                 <div className="row banner">
                     <div className="banner-text">
-                        <h1 className="responsive-headline">Lucas Rosinelli</h1>
+                        <h1 className="responsive-headline">{resumeData.shortName}</h1>
                         <h3>
-                            I'm a Brazilian <span>full stack developer</span> and <span>programmer</span> born and raised in Brazil very passionate about creating software for companies of all sizes around the globe.
+                            I'm a Brazilian <span>{resumeData.role}</span> born and raised in Brazil very passionate about creating software for companies of all sizes around the globe.
                             You can <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.
                         </h3>
                         <hr />
