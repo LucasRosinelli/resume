@@ -63,6 +63,42 @@ export default class Resume extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="row freelance">
+                    <div className="three columns header-col">
+                        <h1><span>Freelance</span></h1>
+                    </div>
+                    <div className="nine columns main-col">
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>Track Inspection</h3>
+                                <h5>Metrô SP - Companhia do Metropolitano de São Paulo</h5>
+                                <h6>São Paulo, SP, Brazil</h6>
+                                <p className="info">Full stack developer <span>•</span> <em className="date">November 2017 - December 2018</em></p>
+                                <p>Partner: Jackson Fonteles</p>
+                                <p>
+                                    Solution created to manage and support track inspections. It enables managers to set which tracks must be replaced, followed up or registered.
+                                    Using complex calculations, the application gives to managers the worst rails.
+                                    It is a critical system for the company and end-users. That means 
+                                    Initial data was migrated from a Microsoft Access database. Data visualization and performance was improved.
+                                    Application was converted from desktop-based to web-hosted. Due to new web version, time spent by operational team on registrations was reduced as the process got an improvement.
+                                    [[ REFINE THIS TEXT ]]
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>Quasar System</h3>
+                                <h5>Sancilio &amp; Company</h5>
+                                <h6>Riviera Beach, FL, United States</h6>
+                                <p className="info">Full stack developer <span>•</span> <em className="date">September 2016 - April 2017</em></p>
+                                <p>Partner: Gustavo Nucci</p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="row certification">
                     <div className="three columns header-col">
                         <h1><span>Certifications</span></h1>
@@ -92,6 +128,40 @@ export default class Resume extends Component {
                                 <p className="info">Microsoft <span>•</span> <em className="date">July 2011</em></p>
                                 <p>
                                     Credential ID D432-4959
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row volunteer">
+                    <div className="three columns header-col">
+                        <h1><span>Volunteer</span></h1>
+                    </div>
+                    <div className="nine columns main-col">
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>NEXXYS</h3>
+                                <p className="info">Full stack developer <span>•</span> <em className="date">September 2012 - Present</em></p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>DIGISYSTEM</h3>
+                                <p className="info">Software developer <span>•</span> <em className="date">October 2006 - August 2012</em></p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>Politec</h3>
+                                <p className="info">Programmer <span>•</span> <em className="date">September 2004 - June 2006</em></p>
+                                <p>
+                                    &nbsp;
                                 </p>
                             </div>
                         </div>
