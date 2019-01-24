@@ -74,14 +74,13 @@ export default class Resume extends Component {
                                 <h5>Metrô SP - Companhia do Metropolitano de São Paulo</h5>
                                 <h6>São Paulo, SP, Brazil</h6>
                                 <p className="info">Full stack developer <span>•</span> <em className="date">November 2017 - December 2018</em></p>
-                                <p>Partner: Jackson Fonteles</p>
+                                <p>Partner: <a target="LucasRosinelliExternal" href="https://www.linkedin.com/in/jackson-fonteles/">Jackson Fonteles</a></p>
                                 <p>
                                     Solution created to manage and support track inspections. It enables managers to set which tracks must be replaced, followed up or registered.
                                     Using complex calculations, the application gives to managers the worst rails.
-                                    It is a critical system for the company and end-users. That means 
+                                    It is a critical system for the company and end-users.
                                     Initial data was migrated from a Microsoft Access database. Data visualization and performance was improved.
                                     Application was converted from desktop-based to web-hosted. Due to new web version, time spent by operational team on registrations was reduced as the process got an improvement.
-                                    [[ REFINE THIS TEXT ]]
                                 </p>
                             </div>
                         </div>
@@ -91,7 +90,7 @@ export default class Resume extends Component {
                                 <h5>Sancilio &amp; Company</h5>
                                 <h6>Riviera Beach, FL, United States</h6>
                                 <p className="info">Full stack developer <span>•</span> <em className="date">September 2016 - April 2017</em></p>
-                                <p>Partner: Gustavo Nucci</p>
+                                <p>Partner: <a target="LucasRosinelliExternal" href="https://www.linkedin.com/in/gustavonucci/?locale=en_US">Gustavo Nucci</a></p>
                                 <p>
                                     &nbsp;
                                 </p>
@@ -140,8 +139,8 @@ export default class Resume extends Component {
                     <div className="nine columns main-col">
                         <div className="row item">
                             <div className="twelve columns">
-                                <h3>NEXXYS</h3>
-                                <p className="info">Full stack developer <span>•</span> <em className="date">September 2012 - Present</em></p>
+                                <h3>Multimedia Operator</h3>
+                                <p className="info">Morumbi Baptist Church <span>•</span> <em className="date">January 2018 - Present</em></p>
                                 <p>
                                     &nbsp;
                                 </p>
@@ -149,8 +148,8 @@ export default class Resume extends Component {
                         </div>
                         <div className="row item">
                             <div className="twelve columns">
-                                <h3>DIGISYSTEM</h3>
-                                <p className="info">Software developer <span>•</span> <em className="date">October 2006 - August 2012</em></p>
+                                <h3>Christian Education Secretariat and Resources Coordinator</h3>
+                                <p className="info">Lapa Presbyterian Church <span>•</span> <em className="date">January 2017 - December 2017</em></p>
                                 <p>
                                     &nbsp;
                                 </p>
@@ -158,8 +157,35 @@ export default class Resume extends Component {
                         </div>
                         <div className="row item">
                             <div className="twelve columns">
-                                <h3>Politec</h3>
-                                <p className="info">Programmer <span>•</span> <em className="date">September 2004 - June 2006</em></p>
+                                <h3>Christian Education Assistant Professor</h3>
+                                <p className="info">Lapa Presbyterian Church <span>•</span> <em className="date">January 2012 - December 2013</em></p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>Deacon</h3>
+                                <p className="info">Lapa Presbyterian Church <span>•</span> <em className="date">April 2010 - March 2015</em></p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>Board Member</h3>
+                                <p className="info">UMP São Paulo Project <span>•</span> <em className="date">March 2007 - July 2012</em></p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>Private 2nd Class</h3>
+                                <p className="info">Brazilian Army - Military Service <span>•</span> <em className="date">March 2004 - December 2004</em></p>
                                 <p>
                                     &nbsp;
                                 </p>
@@ -173,11 +199,9 @@ export default class Resume extends Component {
                     </div>
                     <div className="nine columns main-col">
                         <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt.
+                            &nbsp;
                         </p>
+                        {/*
                         <h3>Majors</h3>
                         <div className="bars">
                             <ul className="skills">
@@ -204,6 +228,7 @@ export default class Resume extends Component {
                                 <li><span className="bar-expand jquery" /><em>jQuery</em></li>
                             </ul>
                         </div>
+                        */}
                     </div>
                 </div>
             </section>
