@@ -76,11 +76,12 @@ export default class Resume extends Component {
                                 <p className="info">Full stack developer <span>•</span> <em className="date">November 2017 - December 2018</em></p>
                                 <p>Partner: <a target="LucasRosinelliExternal" href="https://www.linkedin.com/in/jackson-fonteles/">Jackson Fonteles</a></p>
                                 <p>
-                                    Solution created to manage and support track inspections. It enables managers to set which tracks must be replaced, followed up or registered.
-                                    Using complex calculations, the application gives to managers the worst rails.
-                                    It is a critical system for the company and end-users.
-                                    Initial data was migrated from a Microsoft Access database. Data visualization and performance was improved.
-                                    Application was converted from desktop-based to web-hosted. Due to new web version, time spent by operational team on registrations was reduced as the process got an improvement.
+                                    Metrô SP is one of the rapid transit companies in the city of São Paulo, SP, Brazil. It serves more than 4.3 million users daily. It's fundamental that a company which affects too many users operates properly and securely.
+                                    Track Inspection manages and supports operational maintenance registrations.
+                                    Due to complex calculations based on previous on-site registrations by operational team, managers face and get a sort of reports.
+                                    These reports contain rail's situations and action that should be done: replace a rail, reinspect it, keep it on radar and so on. All based on score for each evaluation along time.
+                                    It's a critical system for both company and end-users.
+                                    As it is an online application with responsive layout, operational team doesn't need anymore papers to register colleted data: a mobile phone connected to Metrô SP intranet is sufficient. This characteristics improved their efficiency and time spent.
                                 </p>
                             </div>
                         </div>
@@ -140,6 +141,15 @@ export default class Resume extends Component {
                         <div className="row item">
                             <div className="twelve columns">
                                 <h3>Multimedia Operator</h3>
+                                <p className="info">Morumbi Baptist Church <span>•</span> <em className="date">January 2018 - Present</em></p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row item">
+                            <div className="twelve columns">
+                                <h3>Engaged Couple Mentoring</h3>
                                 <p className="info">Morumbi Baptist Church <span>•</span> <em className="date">January 2018 - Present</em></p>
                                 <p>
                                     &nbsp;
