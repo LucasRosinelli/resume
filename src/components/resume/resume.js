@@ -185,6 +185,15 @@ export default class Resume extends Component {
                         </div>
                         <div className="row item">
                             <div className="twelve columns">
+                                <h3>Multimedia Operator</h3>
+                                <p className="info">Lapa Presbyterian Church <span>•</span> <em className="date">August 2007 - December 2012</em></p>
+                                <p>
+                                    &nbsp;
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row item">
+                            <div className="twelve columns">
                                 <h3>Board Member</h3>
                                 <p className="info">UMP São Paulo Project <span>•</span> <em className="date">March 2007 - July 2012</em></p>
                                 <p>
@@ -203,6 +212,8 @@ export default class Resume extends Component {
                         </div>
                     </div>
                 </div>
+                {/*
+                */}
                 <div className="row skill">
                     <div className="three columns header-col">
                         <h1><span>Skills</span></h1>
@@ -211,34 +222,51 @@ export default class Resume extends Component {
                         <p>
                             &nbsp;
                         </p>
-                        {/*
-                        <h3>Majors</h3>
                         <div className="bars">
                             <ul className="skills">
                                 <li><span className="bar-expand csharp" /><em>C#</em></li>
-                                <li><span className="bar-expand netfw" /><em>.NET Framework</em></li>
-                                <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                                <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                                <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
-                                <li><span className="bar-expand css" /><em>CSS</em></li>
-                                <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                                <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+                                <li><span className="bar-expand aspnet" /><em>ASP.NET MVC</em></li>
+                                <li><span className="bar-expand aspnet" /><em>Windows Forms</em></li>
+                                <li><span className="bar-expand aspnet" /><em>WPF</em></li>
+                                <li><span className="bar-expand aspnet" /><em>WCF</em></li>
+                                <li><span className="bar-expand aspnet" /><em>Web API</em></li>
+                                <li><span className="bar-expand aspnet" /><em>REST/SOAP</em></li>
+                                <li><span className="bar-expand javascript" /><em>JavaScript</em></li>
+                                {/*
+                                See 7 endorsements for C#7
+SQL
+MySQL
+Oracle
+MongoDB
+.NET
+Visual Studio
+Microsoft Certified Professional
+ASP.NET MVC
+ASP.NET AJAX
+AJAX
+HTML5
+CSS
+JavaScript
+JQuery
+Bootstrap
+AngularJS
+WPF
+WCF
+Entity Framework
+Visual Basic
+Windows Server
+Ionic Framework
+Sistemas operacionais
+Microsoft .NET
+REST
+SOAP
+Node.js
+TFS
+GitHub
+Git
+                                */}
                             </ul>
                         </div>
-                        <h3>Minors</h3>
-                        <div className="bars">
-                            <ul className="skills">
-                                <li><span className="bar-expand vbnet" /><em>VB.NET</em></li>
-                                <li><span className="bar-expand netfw" /><em>.NET Framework</em></li>
-                                <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                                <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                                <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
-                                <li><span className="bar-expand css" /><em>CSS</em></li>
-                                <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                                <li><span className="bar-expand jquery" /><em>jQuery</em></li>
-                            </ul>
-                        </div>
-                        */}
                     </div>
                 </div>
             </section>
