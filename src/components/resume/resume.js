@@ -222,50 +222,43 @@ export default class Resume extends Component {
                         <p>
                             &nbsp;
                         </p>
-                        <div className="bars">
-                            <ul className="skills">
-                                <li><span className="bar-expand csharp" /><em>C#</em></li>
-                                <li><span className="bar-expand aspnet" /><em>ASP.NET MVC</em></li>
-                                <li><span className="bar-expand aspnet" /><em>Windows Forms</em></li>
-                                <li><span className="bar-expand aspnet" /><em>WPF</em></li>
-                                <li><span className="bar-expand aspnet" /><em>WCF</em></li>
-                                <li><span className="bar-expand aspnet" /><em>Web API</em></li>
-                                <li><span className="bar-expand aspnet" /><em>REST/SOAP</em></li>
-                                <li><span className="bar-expand javascript" /><em>JavaScript</em></li>
-                                {/*
-                                See 7 endorsements for C#7
-SQL
-MySQL
-Oracle
-MongoDB
-.NET
-Visual Studio
-Microsoft Certified Professional
-ASP.NET MVC
-ASP.NET AJAX
-AJAX
-HTML5
-CSS
-JavaScript
-JQuery
-Bootstrap
-AngularJS
-WPF
-WCF
-Entity Framework
-Visual Basic
-Windows Server
-Ionic Framework
-Sistemas operacionais
-Microsoft .NET
-REST
-SOAP
-Node.js
-TFS
-GitHub
-Git
-                                */}
-                            </ul>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand csharp eigthy" /><em>C#</em></li>
+                                        <li><span className="bar-expand aspnetwebapi seventy" /><em>ASP.NET Web API</em></li>
+                                        <li><span className="bar-expand windowsforms eigthy" /><em>Windows Forms</em></li>
+                                        <li><span className="bar-expand wcf fifty" /><em>WCF</em></li>
+                                        <li><span className="bar-expand restsoap sixty" /><em>REST/SOAP</em></li>
+                                        <li><span className="bar-expand jquery seventy" /><em>jQuery</em></li>
+                                        <li><span className="bar-expand angular fifty" /><em>AngularJS</em></li>
+                                        <li><span className="bar-expand html seventyfive" /><em>HTML</em></li>
+                                        <li><span className="bar-expand sqlserver eigthy" /><em>SQL Server</em></li>
+                                        <li><span className="bar-expand oracle forty" /><em>Oracle</em></li>
+                                        <li><span className="bar-expand ionic sixty" /><em>Ionic</em></li>
+                                        <li><span className="bar-expand tfs seventy" /><em>TFS</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand aspnetmvc seventy" /><em>ASP.NET MVC (4, 5)</em></li>
+                                        <li><span className="bar-expand aspnetsignalr sixty" /><em>ASP.NET SignalR</em></li>
+                                        <li><span className="bar-expand wpf fifty" /><em>WPF</em></li>
+                                        <li><span className="bar-expand entityframework sixty" /><em>Entity Framework</em></li>
+                                        <li><span className="bar-expand javascript eigthy" /><em>JavaScript</em></li>
+                                        <li><span className="bar-expand bootstrap sixtyfive" /><em>Bootstrap</em></li>
+                                        <li><span className="bar-expand react fortyfive" /><em>React</em></li>
+                                        <li><span className="bar-expand css sixtyfive" /><em>CSS</em></li>
+                                        <li><span className="bar-expand mysql fifty" /><em>MySQL</em></li>
+                                        <li><span className="bar-expand mongodb sixty" /><em>MongoDB</em></li>
+                                        <li><span className="bar-expand reactnative thirty" /><em>React Native</em></li>
+                                        <li><span className="bar-expand git fifty" /><em>GIT</em></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
