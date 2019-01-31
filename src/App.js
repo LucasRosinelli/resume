@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/header/header';
 import About from './components/about/about';
 import Resume from './components/resume/resume';
+import Footer from './components/footer/footer';
 import resumeData from './resumeData';
 import './App.css';
 
@@ -12,6 +13,7 @@ class App extends Component {
         <Header resumeData={resumeData} />
         <About />
         <Resume />
+        <Footer resumeData={resumeData} />
       </div>
     );
   }

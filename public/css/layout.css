@@ -97,7 +97,7 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
+header .social li a, header span.highlight { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
@@ -195,7 +195,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
+#about a, #about a:visited, #about span.highlight { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
@@ -1105,7 +1105,7 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited, footer span.highlight { color: #525252; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */

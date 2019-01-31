@@ -1,30 +1,13 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
+export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
         <React.Fragment>
-            <header id="home">
-                <nav id="nav-wrap">
-                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-                    <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-                    <ul id="nav" className="nav">
-                        <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                        <li><a className="smoothscroll" href="#about">About</a></li>
-                        <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                        {/*
-                        <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-                        <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-                        <li><a className="smoothscroll" href="#contact">Contact</a></li>
-                        */}
-                    </ul>
-                </nav>
-                <div className="row banner">
-                    <div className="banner-text">
-                        <h1 className="responsive-headline">{resumeData.shortName}</h1>
-                        <h3>{resumeData.roleDescription}</h3>
-                        <hr />
-                        <ul className="social">
+            <footer>
+                <div className="row">
+                    <div className="twelve columns">
+                        <ul className="social-links">
                             <li><a target="LucasRosinelliLinkedIn" href="https://br.linkedin.com/in/lucasrosinelli/en"><i className="fab fa-linkedin" /></a></li>
                             <li><a target="LucasRosinelliFacebook" href="https://www.facebook.com/lucas.rosinelli"><i className="fab fa-facebook" /></a></li>
                             <li><a target="LucasRosinelliInstagram" href="https://www.instagram.com/lucasrosinelli"><i className="fab fa-instagram" /></a></li>
@@ -34,12 +17,14 @@ export default class Header extends Component {
                             <li><a target="LucasRosinelliEmail" href="mailto:contact@lucasrosinelli.com" title="Email me: contact@lucasrosinelli.com"><i className="fa fa-envelope" /></a></li>
                             <li><span className="highlight"><i title="Contact me via Skype: lucas.rosinelli" className="fab fa-skype" /></span></li>
                         </ul>
+                        <ul className="copyright">
+                            <li>© Copyright {new Date().getFullYear()} {resumeData.shortName}</li>
+                            <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a> based on <a title="Ceevee" href="https://www.styleshout.com/free-templates/ceevee/">Ceevee</a></li>
+                        </ul>
                     </div>
+                    <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
                 </div>
-                <p className="scrolldown">
-                    <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
-                </p>
-            </header>
+            </footer>
         </React.Fragment>
     );
   }

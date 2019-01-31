@@ -25,8 +25,9 @@ export default class About extends Component {
                                 <p className="address">
                                     <span>Lucas Rosinelli</span><br />
                                     <span>São Paulo, SP, Brazil</span><br />
-                                    <span>+55 (11) 98579-5419</span><br />
-                                    <span>contact@lucasrosinelli.com</span>
+                                    <a target="LucasRosinelliWhatsApp" href="https://api.whatsapp.com/send?phone=5511985795419" title="Contact me via WhatsApp: +55 11 98579-5419"><i className="fab fa-whatsapp" /></a> <a target="LucasRosinelliPhone" href="tel:+5511985795419" title="Call me: +55 11 98579-5419"><i className="fa fa-phone" /></a> <span>+55 (11) 98579-5419</span><br />
+                                    <a target="LucasRosinelliEmail" href="mailto:contact@lucasrosinelli.com" title="Email me: contact@lucasrosinelli.com"><i className="fa fa-envelope" /></a> <span>contact@lucasrosinelli.com</span><br />
+                                    <span className="highlight"><i title="Contact me via Skype: lucas.rosinelli" className="fab fa-skype" /></span> <span>lucas.rosinelli</span>
                                 </p>
                             </div>
                             <div className="columns download">
