@@ -5,6 +5,6 @@ let resumeData = {
     "fullName": "Lucas Rosinelli da Rocha",
     "shortName": "Lucas Rosinelli",
     "role": "full stack developer",
-    "roleDescription": "Experienced full stack developer with solutions created focused on company needs. Have consistently maintained products, adding new features and improving their scalability and efficiency. A team-player member who keeps in mind that excellent interpersonal relationship is important as a high-quality product delivered on time."
+    "roleDescription": "Experienced full stack developer with solutions created focused on company needs. A team-player member who always keeps in mind that excellent interpersonal relationship is important as a high-quality product delivered on time."
 }
 export default resumeData;
