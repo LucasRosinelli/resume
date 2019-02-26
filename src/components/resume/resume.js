@@ -13,18 +13,12 @@ export default class Resume extends Component {
                             <div className="twelve columns">
                                 <h3>Universidade Presbiteriana Mackenzie</h3>
                                 <p className="info">B.S. Degree in Computer Science <span>•</span> <em className="date">December 2012</em></p>
-                                <p>
-                                    &nbsp;
-                                </p>
                             </div>
                         </div>
                         <div className="row item">
                             <div className="twelve columns">
                                 <h3>Escola Técnica Estadual "Dr. Adail Nunes da Silva"</h3>
                                 <p className="info">Information Technology Technician <span>•</span> <em className="date">December 2003</em></p>
-                                <p>
-                                    &nbsp;
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -39,7 +33,14 @@ export default class Resume extends Component {
                                 <h3>NEXXYS</h3>
                                 <p className="info">Full stack developer <span>•</span> <em className="date">September 2012 - Present</em></p>
                                 <p>
-                                    &nbsp;
+                                    <i>Bullets</i>
+                                </p>
+                                <p>
+                                    <i>Achievements</i>
+                                    <ul className="twelve columns">
+                                        <li>ITEM 1</li>
+                                        <li>Item 2</li>
+                                    </ul>
                                 </p>
                             </div>
                         </div>
@@ -81,7 +82,7 @@ export default class Resume extends Component {
                                     Due to complex calculations based on previous on-site registrations by operational team, managers face and get a sort of reports.
                                     These reports contain rail's situations and action that should be done: replace a rail, reinspect it, keep it on radar and so on. All based on score for each evaluation along time.
                                     It's a critical system for both company and end-users.
-                                    As it is an online application with responsive layout, operational team doesn't need anymore papers to register colleted data: a mobile phone connected to Metrô SP intranet is sufficient. This characteristics improved their efficiency and time spent.
+                                    As it is an online application with responsive layout, operational team doesn't need anymore papers to register collected data: a mobile phone connected to Metrô SP intranet is sufficient. These characteristics improved their efficiency and time spent.
                                 </p>
                             </div>
                         </div>
@@ -225,17 +226,6 @@ export default class Resume extends Component {
                                 <div className="bars">
                                     <ul className="skills">
                                         <li><span className="bar-expand csharp eigthy" /><em>C#</em></li>
-                                        <li><span className="bar-expand aspnetwebapi seventy" /><em>ASP.NET Web API</em></li>
-                                        <li><span className="bar-expand windowsforms eigthy" /><em>Windows Forms</em></li>
-                                        <li><span className="bar-expand wcf fifty" /><em>WCF</em></li>
-                                        <li><span className="bar-expand restsoap sixty" /><em>REST/SOAP</em></li>
-                                        <li><span className="bar-expand jquery seventy" /><em>jQuery</em></li>
-                                        <li><span className="bar-expand angular fifty" /><em>AngularJS</em></li>
-                                        <li><span className="bar-expand html seventyfive" /><em>HTML</em></li>
-                                        <li><span className="bar-expand sqlserver eigthy" /><em>SQL Server</em></li>
-                                        <li><span className="bar-expand oracle forty" /><em>Oracle</em></li>
-                                        <li><span className="bar-expand ionic sixty" /><em>Ionic</em></li>
-                                        <li><span className="bar-expand tfs seventy" /><em>TFS</em></li>
                                     </ul>
                                 </div>
                             </div>
@@ -243,16 +233,181 @@ export default class Resume extends Component {
                                 <div className="bars">
                                     <ul className="skills">
                                         <li><span className="bar-expand aspnetmvc seventy" /><em>ASP.NET MVC (4, 5)</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand aspnetwebapi seventy" /><em>ASP.NET Web API</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand aspnetsignalr sixty" /><em>ASP.NET SignalR</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand windowsforms eigthy" /><em>Windows Forms</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand wpf fifty" /><em>WPF</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand wcf fifty" /><em>WCF</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand restsoap sixty" /><em>REST/SOAP</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand entityframework sixty" /><em>Entity Framework</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand javascript eigthy" /><em>JavaScript</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand jquery seventy" /><em>jQuery</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand bootstrap sixtyfive" /><em>Bootstrap</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand angular fifty" /><em>AngularJS</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand react fortyfive" /><em>React</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand html seventyfive" /><em>HTML</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand css sixtyfive" /><em>CSS</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand sqlserver eigthy" /><em>SQL Server</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand mysql fifty" /><em>MySQL</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand oracle forty" /><em>Oracle</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand mongodb sixty" /><em>MongoDB</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand ionic sixty" /><em>Ionic</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand reactnative thirty" /><em>React Native</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
+                                        <li><span className="bar-expand tfs seventy" /><em>TFS</em></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="six columns">
+                                <div className="bars">
+                                    <ul className="skills">
                                         <li><span className="bar-expand git fifty" /><em>GIT</em></li>
                                     </ul>
                                 </div>
