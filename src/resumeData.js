@@ -17,7 +17,8 @@ let resumeData = {
             "display": "+55 11 98579-5419"
         },
         "email": "contact@lucasrosinelli.com",
-        "skype": "lucas.rosinelli"
+        "skype": "lucas.rosinelli",
+        "currentLocation": "São Paulo, SP, Brazil"
     }
 }
 export default resumeData;

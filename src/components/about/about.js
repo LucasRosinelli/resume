@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import resumeData from '../../resumeData';
 export default class About extends Component {
   render() {
     return (
@@ -23,11 +24,11 @@ export default class About extends Component {
                             <div className="columns contact-details">
                                 <h2>Contact Details</h2>
                                 <p className="address">
-                                    <span>Lucas Rosinelli</span><br />
-                                    <span>São Paulo, SP, Brazil</span><br />
-                                    <a target="LucasRosinelliWhatsApp" href="https://api.whatsapp.com/send?phone=5511985795419" title="Contact me via WhatsApp: +55 11 98579-5419"><i className="fab fa-whatsapp" /></a> <a target="LucasRosinelliPhone" href="tel:+5511985795419" title="Call me: +55 11 98579-5419"><i className="fa fa-phone" /></a> <span>+55 (11) 98579-5419</span><br />
-                                    <a target="LucasRosinelliEmail" href="mailto:contact@lucasrosinelli.com" title="Email me: contact@lucasrosinelli.com"><i className="fa fa-envelope" /></a> <span>contact@lucasrosinelli.com</span><br />
-                                    <span className="highlight"><i title="Contact me via Skype: lucas.rosinelli" className="fab fa-skype" /></span> <span>lucas.rosinelli</span>
+                                    <span>{resumeData.shortName}</span><br />
+                                    <span>{resumeData.contact.currentLocation}</span><br />
+                                    <a target="LucasRosinelliWhatsApp" href={"https://api.whatsapp.com/send?phone=" + resumeData.contact.phone.unformatted} title={"Contact me via WhatsApp: " + resumeData.contact.phone.display}><i className="fab fa-whatsapp" /></a> <a target="LucasRosinelliPhone" href={"tel:+" + resumeData.contact.phone.unformatted} title={"Call me: " + resumeData.contact.phone.display}><i className="fa fa-phone" /></a> <span>{resumeData.contact.phone.display}</span><br />
+                                    <a target="LucasRosinelliEmail" href={"mailto:" + resumeData.contact.email} title={"Email me: " + resumeData.contact.email}><i className="fa fa-envelope" /></a> <span>{resumeData.contact.email}</span><br />
+                                    <span className="highlight"><i title={"Contact me via Skype: " + resumeData.contact.skype} className="fab fa-skype" /></span> <span>{resumeData.contact.skype}</span>
                                 </p>
                             </div>
                             <div className="columns download">
