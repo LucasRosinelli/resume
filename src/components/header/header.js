@@ -25,14 +25,14 @@ export default class Header extends Component {
                         <h3>{resumeData.roleDescription}</h3>
                         <hr />
                         <ul className="social">
-                            <li><a target="LucasRosinelliLinkedIn" href="https://br.linkedin.com/in/lucasrosinelli/en"><i className="fab fa-linkedin" /></a></li>
-                            <li><a target="LucasRosinelliFacebook" href="https://www.facebook.com/lucas.rosinelli"><i className="fab fa-facebook" /></a></li>
-                            <li><a target="LucasRosinelliInstagram" href="https://www.instagram.com/lucasrosinelli"><i className="fab fa-instagram" /></a></li>
-                            <li><a target="LucasRosinelliBitbucket" href="https://bitbucket.org/lucasrosinelli"><i className="fab fa-bitbucket" /></a></li>
-                            <li><a target="LucasRosinelliWhatsApp" href="https://api.whatsapp.com/send?phone=5511985795419" title="Contact me via WhatsApp: +55 11 98579-5419"><i className="fab fa-whatsapp" /></a></li>
-                            <li><a target="LucasRosinelliPhone" href="tel:+5511985795419" title="Call me: +55 11 98579-5419"><i className="fa fa-phone" /></a></li>
-                            <li><a target="LucasRosinelliEmail" href="mailto:contact@lucasrosinelli.com" title="Email me: contact@lucasrosinelli.com"><i className="fa fa-envelope" /></a></li>
-                            <li><span className="highlight"><i title="Contact me via Skype: lucas.rosinelli" className="fab fa-skype" /></span></li>
+                            <li><a target="LucasRosinelliLinkedIn" href={resumeData.contact.linkedIn}><i className="fab fa-linkedin" /></a></li>
+                            <li><a target="LucasRosinelliFacebook" href={resumeData.contact.facebook}><i className="fab fa-facebook" /></a></li>
+                            <li><a target="LucasRosinelliInstagram" href={resumeData.contact.instagram}><i className="fab fa-instagram" /></a></li>
+                            <li><a target="LucasRosinelliBitbucket" href={resumeData.contact.bitbucket}><i className="fab fa-bitbucket" /></a></li>
+                            <li><a target="LucasRosinelliWhatsApp" href={"https://api.whatsapp.com/send?phone=" + resumeData.contact.phone.unformatted} title={"Contact me via WhatsApp: " + resumeData.contact.phone.display}><i className="fab fa-whatsapp" /></a></li>
+                            <li><a target="LucasRosinelliPhone" href={"tel:+" + resumeData.contact.phone.unformatted} title={"Call me: " + resumeData.contact.phone.display}><i className="fa fa-phone" /></a></li>
+                            <li><a target="LucasRosinelliEmail" href={"mailto:" + resumeData.contact.email} title={"Email me: " + resumeData.contact.email}><i className="fa fa-envelope" /></a></li>
+                            <li><span className="highlight"><i title={"Contact me via Skype: " + resumeData.contact.skype} className="fab fa-skype" /></span></li>
                         </ul>
                     </div>
                 </div>
