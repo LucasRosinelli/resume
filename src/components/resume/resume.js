@@ -33,6 +33,7 @@ export default class Resume extends Component {
                             <div className="twelve columns">
                                 <h3>NEXXYS</h3>
                                 <p className="info">Full stack developer <span>•</span> <em className="date">September 2012 - Present</em></p>
+                                {/*
                                 <p>
                                     <i>Bullets</i>
                                 </p>
@@ -42,6 +43,10 @@ export default class Resume extends Component {
                                         <li>ITEM 1</li>
                                         <li>Item 2</li>
                                     </ul>
+                                </p>
+                                */}
+                                <p>
+                                    &nbsp;
                                 </p>
                             </div>
                         </div>
