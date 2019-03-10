@@ -18,7 +18,7 @@ let resumeData = {
         },
         "email": "contact@lucasrosinelli.com",
         "skype": "lucas.rosinelli",
-        "currentLocation": "São Paulo, SP, Brazil"
+        "currentLocation": "Lisbon, Portugal"
     },
     "resume": {
         "workExperiences": [
