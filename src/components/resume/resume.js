@@ -39,9 +39,9 @@ export default class Resume extends Component {
                         <div className="nine columns main-col">
                             <div className="row item">
                                 <div className="twelve columns">
-                                    <h3><span class={"flag-icon flag-icon-br"}></span> Track Inspection</h3>
+                                    <h3>Track Inspection</h3>
                                     <h5>Metrô SP - Companhia do Metropolitano de São Paulo</h5>
-                                    <h6>São Paulo, SP, Brazil</h6>
+                                    <h6><span class={"flag-icon flag-icon-br"}></span> São Paulo, SP, Brazil</h6>
                                     <p className="info">Full stack developer <span>•</span> <em className="date">November 2017 - December 2018</em></p>
                                     <p>Partner: <a target="LucasRosinelliExternal" href="https://www.linkedin.com/in/jackson-fonteles/">Jackson Fonteles</a></p>
                                     <p>
@@ -59,9 +59,9 @@ export default class Resume extends Component {
                             </div>
                             <div className="row item">
                                 <div className="twelve columns">
-                                    <h3><span class={"flag-icon flag-icon-us"}></span> Quasar System</h3>
+                                    <h3>Quasar System</h3>
                                     <h5>Sancilio &amp; Company</h5>
-                                    <h6>Riviera Beach, FL, United States</h6>
+                                    <h6><span class={"flag-icon flag-icon-us"}></span> Riviera Beach, FL, United States</h6>
                                     <p className="info">Full stack developer <span>•</span> <em className="date">September 2016 - April 2017</em></p>
                                     <p>Partner: <a target="LucasRosinelliExternal" href="https://www.linkedin.com/in/gustavonucci/?locale=en_US">Gustavo Nucci</a></p>
                                     <p>
@@ -234,7 +234,8 @@ export default class Resume extends Component {
             workExperienceRows.push(
                 <div className="row item">
                     <div className="twelve columns">
-                        <h3><span class={"flag-icon flag-icon-" + workExperience.country}></span> {workExperience.company}</h3>
+                        <h3>{workExperience.company}</h3>
+                        <h6><span class={"flag-icon flag-icon-" + workExperience.country}></span> {workExperience.location}</h6>
                         <p className="info">{workExperience.position} <span>•</span> <em className="date">{workExperience.from} - {workExperience.to}</em></p>
                         {description}
                         {dutiesAchievements}
