@@ -18,33 +18,38 @@ let resumeData = {
         },
         "email": "contact@lucasrosinelli.com",
         "skype": "lucas.rosinelli",
-        "currentLocation": "Lisbon, Portugal"
+        "currentLocation": "Lisbon, Portugal",
+        "currentLocationCountry": "pt"
     },
     "resume": {
         "workExperiences": [
             {
-                "company": "Vision-box", "country": "pt", "position": "Full stack developer",
+                "company": "Vision-box", "position": "Full stack developer",
+                "country": "pt", "location": "Lisbon, Portugal",
                 "from": "March 2019", "to": "Present",
                 "description": "",
                 "duties": [],
                 "achievements": []
             },
             {
-                "company": "NEXXYS", "country": "br", "position": "Full stack developer",
+                "company": "NEXXYS", "position": "Full stack developer",
+                "country": "br", "location": "São Paulo, SP, Brazil",
                 "from": "September 2012", "to": "March 2019",
                 "description": "",
                 "duties": [],
                 "achievements": []
             },
             {
-                "company": "DIGISYSTEM", "country": "br", "position": "Software developer",
+                "company": "DIGISYSTEM", "position": "Software developer",
+                "country": "br", "location": "São Paulo, SP, Brazil",
                 "from": "October 2006", "to": "August 2012",
                 "description": "",
                 "duties": [],
                 "achievements": []
             },
             {
-                "company": "Politec", "country": "br", "position": "Programmer",
+                "company": "Politec", "position": "Programmer",
+                "country": "br", "location": "Taquaritinga, SP, Brazil",
                 "from": "September 2004", "to": "June 2006",
                 "description": "",
                 "duties": [],
