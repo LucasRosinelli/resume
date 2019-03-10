@@ -31,7 +31,7 @@ let resumeData = {
             },
             {
                 "company": "NEXXYS", "country": "br", "position": "Full stack developer",
-                "from": "September 2012", "to": "February 2019",
+                "from": "September 2012", "to": "March 2019",
                 "description": "",
                 "duties": [],
                 "achievements": []
