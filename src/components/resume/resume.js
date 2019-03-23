@@ -121,7 +121,7 @@ export default class Resume extends Component {
                             <div className="row item">
                                 <div className="twelve columns">
                                     <h3>Multimedia Operator</h3>
-                                    <p className="info">Morumbi Baptist Church <span>•</span> <em className="date">January 2018 - Present</em></p>
+                                    <p className="info">Morumbi Baptist Church <span>•</span> <em className="date">January 2018 - February 2019</em></p>
                                     <p>
                                         &nbsp;
                                     </p>
@@ -130,7 +130,7 @@ export default class Resume extends Component {
                             <div className="row item">
                                 <div className="twelve columns">
                                     <h3>Engaged Couple Mentoring</h3>
-                                    <p className="info">Morumbi Baptist Church <span>•</span> <em className="date">January 2018 - Present</em></p>
+                                    <p className="info">Morumbi Baptist Church <span>•</span> <em className="date">January 2018 - February 2019</em></p>
                                     <p>
                                         &nbsp;
                                     </p>
