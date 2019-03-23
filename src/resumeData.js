@@ -24,7 +24,7 @@ let resumeData = {
     "resume": {
         "workExperiences": [
             {
-                "company": "Vision-box", "position": "Full stack developer",
+                "company": "Vision-box", "position": "Software engineer",
                 "country": "pt", "location": "Lisbon, Portugal",
                 "from": "March 2019", "to": "Present",
                 "description": "",
