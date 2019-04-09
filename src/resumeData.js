@@ -13,8 +13,8 @@ let resumeData = {
         "bitbucket": "https://bitbucket.org/lucasrosinelli",
         "github": "https://github.com/lucasrosinelli",
         "phone": {
-            "unformatted": "5511985795419",
-            "display": "+55 11 98579-5419"
+            "unformatted": "351965507579",
+            "display": "+351 965 507 579"
         },
         "email": "contact@lucasrosinelli.com",
         "skype": "lucas.rosinelli",
