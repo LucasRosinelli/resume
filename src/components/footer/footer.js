@@ -11,7 +11,7 @@ export default class Footer extends Component {
                             <li><a target="LucasRosinelliLinkedIn" href={resumeData.contact.linkedIn}><i className="fab fa-linkedin" /></a></li>
                             <li><a target="LucasRosinelliFacebook" href={resumeData.contact.facebook}><i className="fab fa-facebook" /></a></li>
                             <li><a target="LucasRosinelliInstagram" href={resumeData.contact.instagram}><i className="fab fa-instagram" /></a></li>
-                            <li><a target="LucasRosinelliBitbucket" href={resumeData.contact.bitbucket}><i className="fab fa-bitbucket" /></a></li>
+                            <li><a target="LucasRosinelliGitHub" href={resumeData.contact.github}><i className="fab fa-github" /></a></li>
                             <li><a target="LucasRosinelliWhatsApp" href={"https://api.whatsapp.com/send?phone=" + resumeData.contact.phone.unformatted} title={"Contact me via WhatsApp: " + resumeData.contact.phone.display}><i className="fab fa-whatsapp" /></a></li>
                             <li><a href={"tel:+" + resumeData.contact.phone.unformatted} title={"Call me: " + resumeData.contact.phone.display}><i className="fa fa-phone" /></a></li>
                             <li><a href={"mailto:" + resumeData.contact.email} title={"Email me: " + resumeData.contact.email}><i className="fa fa-envelope" /></a></li>
