@@ -41,7 +41,7 @@ export default class Resume extends Component {
                                 <div className="twelve columns">
                                     <h3>Track Inspection</h3>
                                     <h5>Metrô SP - Companhia do Metropolitano de São Paulo</h5>
-                                    <h6><span class={"flag-icon flag-icon-br"}></span> São Paulo, SP, Brazil</h6>
+                                    <h6><span className={"flag-icon flag-icon-br"}></span> São Paulo, SP, Brazil</h6>
                                     <p className="info">Full stack developer <span>•</span> <em className="date">November 2017 - December 2018</em></p>
                                     <p>Partner: <a target="LucasRosinelliExternal" href="https://www.linkedin.com/in/jackson-fonteles/">Jackson Fonteles</a></p>
                                     <p>
@@ -61,7 +61,7 @@ export default class Resume extends Component {
                                 <div className="twelve columns">
                                     <h3>Quasar System</h3>
                                     <h5>Sancilio &amp; Company</h5>
-                                    <h6><span class={"flag-icon flag-icon-us"}></span> Riviera Beach, FL, United States</h6>
+                                    <h6><span className={"flag-icon flag-icon-us"}></span> Riviera Beach, FL, United States</h6>
                                     <p className="info">Full stack developer <span>•</span> <em className="date">September 2016 - April 2017</em></p>
                                     <p>Partner: <a target="LucasRosinelliExternal" href="https://www.linkedin.com/in/gustavonucci/?locale=en_US">Gustavo Nucci</a></p>
                                     <p>
@@ -207,7 +207,7 @@ export default class Resume extends Component {
             }
             let dutiesAchievements = [];
             if (workExperience.duties.length === 0 && workExperience.achievements.length === 0) {
-                dutiesAchievements.push(<p>&nbsp;</p>);
+                dutiesAchievements.push(<p key="emptyDutiesAchievements">&nbsp;</p>);
             }
             else {
                 let duties = [];
@@ -216,7 +216,7 @@ export default class Resume extends Component {
                 }
                 let achievements = [];
                 for (let i = 0; i < workExperience.achievements.length; i++) {
-                achievements.push(<li>{workExperience.achievements[i]}</li>);
+                    achievements.push(<li>{workExperience.achievements[i]}</li>);
                 }
                 dutiesAchievements.push(
                     <p>
@@ -232,10 +232,10 @@ export default class Resume extends Component {
                 );
             }
             workExperienceRows.push(
-                <div className="row item">
+                <div className="row item" key={"workExperience" + i}>
                     <div className="twelve columns">
                         <h3>{workExperience.company}</h3>
-                        <h6><span class={"flag-icon flag-icon-" + workExperience.country}></span> {workExperience.location}</h6>
+                        <h6><span className={"flag-icon flag-icon-" + workExperience.country}></span> {workExperience.location}</h6>
                         <p className="info">{workExperience.position} <span>•</span> <em className="date">{workExperience.from} - {workExperience.to}</em></p>
                         {description}
                         {dutiesAchievements}
@@ -251,7 +251,7 @@ export default class Resume extends Component {
 
         for (let i = 0; i < resumeData.resume.skills.length; i += 2) {
             skillRows.push(
-                <div className="row">
+                <div className="row" key={"resumeData" + i}>
                     {this.getSkill(resumeData.resume.skills[i])} {this.getSkill(resumeData.resume.skills[i + 1])}
                 </div>
             );
@@ -263,10 +263,10 @@ export default class Resume extends Component {
         let skillRow = [];
 
         if (skill) {
-            skillRow.push(<div className="six columns"><div className="bars"><ul className="skills"><li><span className={"bar-expand " + skill.nameClass + " " + skill.sizeClass} /><em>{skill.name}</em></li></ul></div></div>);
+            skillRow.push(<div className="six columns" key={skill.nameClass}><div className="bars"><ul className="skills"><li><span className={"bar-expand " + skill.nameClass + " " + skill.sizeClass} /><em>{skill.name}</em></li></ul></div></div>);
         }
         else {
-            skillRow.push(<div className="six columns">&nbsp;</div>);
+            skillRow.push(<div className="six columns" key="emptySkill">&nbsp;</div>);
         }
 
         return skillRow;
