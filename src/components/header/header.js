@@ -32,7 +32,7 @@ export default class Header extends Component {
                             <li><a target="LucasRosinelliWhatsApp" href={"https://api.whatsapp.com/send?phone=" + resumeData.contact.phone.unformatted} title={"Contact me via WhatsApp: " + resumeData.contact.phone.display}><i className="fab fa-whatsapp" /></a></li>
                             <li><a href={"tel:+" + resumeData.contact.phone.unformatted} title={"Call me: " + resumeData.contact.phone.display}><i className="fa fa-phone" /></a></li>
                             <li><a href={"mailto:" + resumeData.contact.email} title={"Email me: " + resumeData.contact.email}><i className="fa fa-envelope" /></a></li>
-                            <li><a href={"skype:" + resumeData.contact.skype + "?chat"} title={"Contact me via Skype: " + resumeData.contact.email}><i className="fab fa-skype" /></a></li>
+                            <li><a href={"skype:" + resumeData.contact.skype + "?chat"} title={"Contact me via Skype: " + resumeData.contact.skype}><i className="fab fa-skype" /></a></li>
                         </ul>
                     </div>
                 </div>

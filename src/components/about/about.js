@@ -28,7 +28,7 @@ export default class About extends Component {
                                     <span className={"flag-icon flag-icon-" + resumeData.contact.currentLocationCountry}></span> <span>{resumeData.contact.currentLocation}</span><br />
                                     <a target="LucasRosinelliWhatsApp" href={"https://api.whatsapp.com/send?phone=" + resumeData.contact.phone.unformatted} title={"Contact me via WhatsApp: " + resumeData.contact.phone.display}><i className="fab fa-whatsapp" /></a> <a href={"tel:+" + resumeData.contact.phone.unformatted} title={"Call me: " + resumeData.contact.phone.display}><i className="fa fa-phone" /></a> <span>{resumeData.contact.phone.display}</span><br />
                                     <a href={"mailto:" + resumeData.contact.email} title={"Email me: " + resumeData.contact.email}><i className="fa fa-envelope" /></a> <span>{resumeData.contact.email}</span><br />
-                                    <a href={"skype:" + resumeData.contact.skype + "?chat"} title={"Contact me via Skype: " + resumeData.contact.email}><i className="fab fa-skype" /></a> <span>{resumeData.contact.skype}</span>
+                                    <a href={"skype:" + resumeData.contact.skype + "?chat"} title={"Contact me via Skype: " + resumeData.contact.skype}><i className="fab fa-skype" /></a> <span>{resumeData.contact.skype}</span>
                                 </p>
                             </div>
                             <div className="columns download">
