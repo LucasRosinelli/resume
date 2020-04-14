@@ -218,18 +218,22 @@ export default class Resume extends Component {
                 for (let j = 0; j < workExperience.achievements.length; j++) {
                     achievements.push(<li key={i.toString() + "-" + j.toString() + "-achievements"}>{workExperience.achievements[j]}</li>);
                 }
-                dutiesAchievements.push(
-                    <p key={i + "-duties"}>
-                        <i>Duties</i>
-                        <ul className="twelve columns">{duties}</ul>
-                    </p>
-                );
-                dutiesAchievements.push(
-                    <p key={i + "-achievements"}>
-                        <i>Achievements</i>
-                        <ul className="twelve columns">{achievements}</ul>
-                    </p>
-                );
+                if (duties.length > 0) {
+                    dutiesAchievements.push(
+                        <p key={i + "-duties"}>
+                            <i>Duties</i>
+                            <ul className="twelve columns">{duties}</ul>
+                        </p>
+                    );
+                }
+                if (achievements.length > 0) {
+                    dutiesAchievements.push(
+                        <p key={i + "-achievements"}>
+                            <i>Achievements</i>
+                            <ul className="twelve columns">{achievements}</ul>
+                        </p>
+                    );
+                }
             }
             workExperienceRows.push(
                 <div key={i + "-workExperience"} className="row item">
