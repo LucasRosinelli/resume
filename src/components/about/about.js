@@ -12,13 +12,9 @@ export default class About extends Component {
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
                         <p>
-                            In my spare time I love to
-                            ... <em>coding</em> ... watch movies
-                            ... <em>coding</em> ... read books
-                            ... <em>coding</em> ... play soccer
-                            ... <em>coding</em> ... assemble jigsaw puzzles
-                            ... <em>coding</em> ... play videogames
-                            ... last but not least, <em>coding</em>.
+                            In my spare time I love to watch movies, watch and play football,
+                            assemble jigsaw puzzles and LEGO bricks, play videogames and read books.
+                            Last but not least, <em>coding</em>.
                         </p>
                         <div className="row">
                             <div className="columns contact-details">
