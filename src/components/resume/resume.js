@@ -220,18 +220,18 @@ export default class Resume extends Component {
                 }
                 if (duties.length > 0) {
                     dutiesAchievements.push(
-                        <p key={i + "-duties"}>
+                        <div key={i + "-duties"}>
                             <i>Duties</i>
                             <ul className="twelve columns">{duties}</ul>
-                        </p>
+                        </div>
                     );
                 }
                 if (achievements.length > 0) {
                     dutiesAchievements.push(
-                        <p key={i + "-achievements"}>
+                        <div key={i + "-achievements"}>
                             <i>Achievements</i>
                             <ul className="twelve columns">{achievements}</ul>
-                        </p>
+                        </div>
                     );
                 }
             }
