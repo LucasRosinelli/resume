@@ -1,6 +1,6 @@
 # Lucas Rosinelli Resume
 
-This repository contains the source code to my [resume](http://lucasrosinelli.com/).
+This repository contains the source code to my [resume](https://lucasrosinelli.com/).
 
 It's built with [React](https://reactjs.org/) and based on [Ceevee](https://www.styleshout.com/free-templates/ceevee/) layout.
 
