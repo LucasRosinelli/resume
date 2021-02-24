@@ -1,11 +1,11 @@
 let resumeData = {
-    "imagebaseurl": "http://lucasrosinelliresume.netlify.com/",
+    "imagebaseurl": "https://lucasrosinelli.com/",
     "firstName": "Lucas",
     "lastName": "Rosinelli da Rocha",
     "fullName": "Lucas Rosinelli da Rocha",
     "shortName": "Lucas Rosinelli",
     "role": "tech lead",
-    "roleDescription": "Experienced software developer with solutions created focused on company needs. A team-player member who always keeps in mind that excellent interpersonal relationship is important as a high-quality product delivered on time.",
+    "roleDescription": "Driven by high-quality standards, I deliver software solutions to increase processes automation, effectiveness and efficiency on web, desktop, and mobile devices.",
     "contact": {
         "linkedIn": "https://br.linkedin.com/in/lucasrosinelli/en",
         "facebook": "https://www.facebook.com/lucas.rosinelli",
@@ -33,9 +33,21 @@ let resumeData = {
                     "Develop software solutions, new user interfaces, software tools and other applications",
                     "Review functional specifications and participate in the development of creative ideas for functionality and user interface",
                     "Create technical design, technical specifications, documentation of developed code",
-                    "Hiring additional personnel"
+                    "Hiring additional personnel",
+                    "Client served as 3rd party: Signicat"
                 ],
-                "achievements": []
+                "achievements": [],
+                "more": [
+                    "C#", ".NET 5", ".NET Core 3.1", "MongoDB", "xUnit", "Moq",
+                    "ASP.NET Web API", "ASP.NET MVC", "Swagger", "OAuth 2.0", "OIDC",
+                    "Angular 10", "React",
+                    "Docker", "Kubernetes", "Microservices", "gRPC",
+                    "GitLab with CI/CD pipelines",
+                    "AWS", "Azure",
+                    "Prometheus", "Kibana", "Grafana",
+                    "Clean Architecture", "Agile", "Scrum", "XP",
+                    "Jira", "Confluence"
+                 ]
             },
             {
                 "company": "Vision-box", "position": "Software engineer",
@@ -51,9 +63,18 @@ let resumeData = {
                     "Hiring additional personnel"
                 ],
                 "achievements": [
-                    "Elaborate and present technical documentation to clients",
+                    "Elaborate and present technical documentation to clients (Dutch Ministry of Justice and Security & Amsterdam Airport Schiphol)",
                     "Create structured documentation for existing processes in the team"
-                ]
+                ],
+                "more": [
+                    "C#", ".NET Core (2.0 and 3.1)", "SQL Server", "xUnit", "Moq",
+                    "ASP.NET Web API", "Swagger",
+                    "Angular", "React",
+                    "Jenkins",
+                    "Kibana", "Grafana",
+                    "Agile", "Scrum",
+                    "Jira", "Confluence"
+                 ]
             },
             {
                 "company": "NEXXYS", "position": "Full stack developer",
@@ -67,7 +88,17 @@ let resumeData = {
                 "achievements": [
                     "Improvements, performance, and refactoring implemented, focusing on coding readability and maintenance, scalability, and reusability",
                     "Increased the company’s revenue by introducing a new idea in the real-time data delivery solution for our clients"
-                ]
+                ],
+                "more": [
+                    "C#", ".NET Standard (3.5 and 4.6)", "SQL Server", "MongoDB", "MySQL", "Dapper", "Entity Framework", "xUnit", "Moq",
+                    "Swagger", "ASP.NET Web API", "ASP.NET MVC", "SignalR", "ASP.NET Web Forms", "Windows Forms", "Windows Services", "WCF", "Silverlight",
+                    "Angular", "React", "Ionic", "React Native",
+                    "DDD", "Git",
+                    "AWS", "Mandic (private cloud)",
+                    "Zabbix",
+                    "Agile", "Scrum",
+                    "SolarWinds"
+                 ]
             },
             {
                 "company": "DIGISYSTEM", "position": "Software developer",
@@ -76,11 +107,14 @@ let resumeData = {
                 "description": "",
                 "duties": [
                     "Analyzed user requirements, and translated client needs into application design",
-                    "Design, code, and support software solutions that can easily be scaled depending on client needs"
+                    "Design, code, and support software solutions that can easily be scaled depending on client needs",
+                    "Clients served as 3rd party: IBOPE, SESI/SENAI and NEXXYS"
                 ],
                 "achievements": [
-                    "Reduced project costs by focusing on double-check requirements and create more accurate test processes with code review"
-                ]
+                    "Reduced project costs by focusing on double-check requirements and create more accurate test processes with code review",
+                    "An excellent work at NEXXYS resulted in a job offer to join their team six months later"
+                ],
+                "more": []
             },
             {
                 "company": "Politec", "position": "Programmer",
@@ -91,7 +125,8 @@ let resumeData = {
                     "Wrote code to specification in order to build two government-facing web-based applications",
                     "Maintain product quality by carrying out reviews, performing continual tests, and analyzing feedback"
                 ],
-                "achievements": []
+                "achievements": [],
+                "more": []
             }
         ],
         "skills": [

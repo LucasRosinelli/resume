@@ -45,14 +45,6 @@ export default class Resume extends Component {
                                     <p className="info">Full stack developer <span>•</span> <em className="date">November 2017 - December 2018</em></p>
                                     <p>Partner: <a target="LucasRosinelliExternal" href="https://www.linkedin.com/in/jackson-fonteles/">Jackson Fonteles</a></p>
                                     <p>
-                                        {/*
-                                        Metrô SP is one of the rapid transit companies in the city of São Paulo, SP, Brazil. It serves more than 4.3 million users daily. It's fundamental that a company which affects too many users operates properly and securely.
-                                        Track Inspection manages and supports operational maintenance registrations.
-                                        Due to complex calculations based on previous on-site registrations by operational team, managers face and get a sort of reports.
-                                        These reports contain rail's situations and action that should be done: replace a rail, reinspect it, keep it on radar and so on. All based on score for each evaluation along time.
-                                        It's a critical system for both company and end-users.
-                                        As it is an online application with responsive layout, operational team doesn't need anymore papers to register collected data: a mobile phone connected to Metrô SP intranet is sufficient. These characteristics improved their efficiency and time spent.
-                                        */}
                                         &nbsp;
                                     </p>
                                 </div>
@@ -210,29 +202,17 @@ export default class Resume extends Component {
                 dutiesAchievements.push(<p key={i + "-dutiesAchievements"}>&nbsp;</p>);
             }
             else {
-                let duties = [];
-                for (let j = 0; j < workExperience.duties.length; j++) {
-                    duties.push(<li key={i.toString() + "-" + j.toString() + "-duties"}>{workExperience.duties[j]}</li>);
+                let duties = this.createWorkExperienceSection(i, "Duties", workExperience.duties);
+                if (duties) {
+                    dutiesAchievements.push(duties);
                 }
-                let achievements = [];
-                for (let j = 0; j < workExperience.achievements.length; j++) {
-                    achievements.push(<li key={i.toString() + "-" + j.toString() + "-achievements"}>{workExperience.achievements[j]}</li>);
+                let achievements = this.createWorkExperienceSection(i, "Achievements", workExperience.achievements);
+                if (achievements) {
+                    dutiesAchievements.push(achievements);
                 }
-                if (duties.length > 0) {
-                    dutiesAchievements.push(
-                        <div key={i + "-duties"}>
-                            <i>Duties</i>
-                            <ul className="twelve columns">{duties}</ul>
-                        </div>
-                    );
-                }
-                if (achievements.length > 0) {
-                    dutiesAchievements.push(
-                        <div key={i + "-achievements"}>
-                            <i>Achievements</i>
-                            <ul className="twelve columns">{achievements}</ul>
-                        </div>
-                    );
+                let more = this.createWorkExperienceMoreSection(i, workExperience.more);
+                if (more) {
+                    dutiesAchievements.push(more);
                 }
             }
             workExperienceRows.push(
@@ -249,6 +229,41 @@ export default class Resume extends Component {
         }
 
         return workExperienceRows;
+    }
+    createWorkExperienceSection = (i, name, data) => {
+        let sectionItems = [];
+        for (let j = 0; j < data.length; j++) {
+            sectionItems.push(<li key={i.toString() + "-" + j.toString() + "-" + name}>{data[j]}</li>);
+        }
+        if (sectionItems.length > 0) {
+            return(
+                <div key={i + "-" + name}>
+                    <i>{name}</i>
+                    <ul className="twelve columns">{sectionItems}</ul>
+                </div>
+            );
+        }
+
+        return null;
+    }
+    createWorkExperienceMoreSection = (i, data) => {
+        let name = "Stacks, Tools, Softwares and more...";
+        let sectionItems = [];
+        for (let j = 0; j < data.length; j++) {
+            sectionItems.push(<div key={i.toString() + "-" + j.toString() + "-" + name} className="item"><span>{data[j]}</span></div>);
+        }
+        if (sectionItems.length > 0) {
+            return(
+                <div key={i + "-" + name}>
+                    <i>{name}</i>
+                    <div key={i + "-items-" + name} className="section-more">
+                        {sectionItems}
+                    </div>
+                </div>
+            );
+        }
+
+        return null;
     }
     createSkills = (resumeData) => {
         let skillRows = [];
