@@ -11,11 +11,7 @@ export default class About extends Component {
                     </div>
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
-                        <p>
-                            In my spare time I love to watch movies, watch and play football,
-                            assemble jigsaw puzzles and LEGO bricks, play videogames and read books.
-                            Last but not least, <em>coding</em>.
-                        </p>
+                        <p>{resumeData.aboutMe}</p>
                         <div className="row">
                             <div className="columns contact-details">
                                 <h2>Contact Details</h2>
@@ -23,8 +19,11 @@ export default class About extends Component {
                                     <span className={"flag-icon flag-icon-br"}></span> <span>{resumeData.shortName}</span><br />
                                     <span className={"flag-icon flag-icon-" + resumeData.contact.currentLocationCountry}></span> <span>{resumeData.contact.currentLocation}</span><br />
                                     <a target="LucasRosinelliWhatsApp" href={"https://api.whatsapp.com/send?phone=" + resumeData.contact.phone.unformatted} title={"Contact me via WhatsApp: " + resumeData.contact.phone.display}><i className="fab fa-whatsapp" /></a> <a href={"tel:+" + resumeData.contact.phone.unformatted} title={"Call me: " + resumeData.contact.phone.display}><i className="fa fa-phone" /></a> <span>{resumeData.contact.phone.display}</span><br />
-                                    <a href={"mailto:" + resumeData.contact.email} title={"Email me: " + resumeData.contact.email}><i className="fa fa-envelope" /></a> <span>{resumeData.contact.email}</span><br />
+                                    <a href={"mailto:" + resumeData.contact.email} title={"Email me: " + resumeData.contact.email}><i className="fa fa-envelope" /></a> <span>{resumeData.contact.email}</span>
+                                    {/*
+                                    <br />
                                     <a href={"skype:" + resumeData.contact.skype + "?chat"} title={"Contact me via Skype: " + resumeData.contact.skype}><i className="fab fa-skype" /></a> <span>{resumeData.contact.skype}</span>
+                                    */}
                                 </p>
                             </div>
                             <div className="columns download">

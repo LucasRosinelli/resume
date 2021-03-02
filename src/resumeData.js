@@ -5,12 +5,12 @@ let resumeData = {
     "fullName": "Lucas Rosinelli da Rocha",
     "shortName": "Lucas Rosinelli",
     "role": "tech lead",
-    "roleDescription": "Driven by high-quality standards, I deliver software solutions to increase processes automation, effectiveness and efficiency on web, desktop, and mobile devices.",
+    "roleDescription": "In a nutshell: I transform an idea into software. Software developer with over 15 years of experience. Driven by high-quality standards, I deliver software solutions to increase processes automation, effectiveness and efficiency on web, desktop, and mobile devices. Bachelor’s degree in Computer Science.",
+    "aboutMe": "Passionate about software development. I aim to create, modify, and deliver systems that are maintainable, scalable, reusable, and secure with high-quality standard following market recommendations and best practices. Focused on backend - which I enjoy the most! -, I'm also interested on learning, touching, and working with frontend, quality and DevOps. I hold a Bachelor degree in Computer Science. In my spare time I love to watch movies, watch and play football, assemble jigsaw puzzles and LEGO bricks, play videogames and read books. Last but not least, I LOVE coding (as a profession and also as a hobby).",
     "contact": {
         "linkedIn": "https://br.linkedin.com/in/lucasrosinelli/en",
         "facebook": "https://www.facebook.com/lucas.rosinelli",
         "instagram": "https://www.instagram.com/lucasrosinelli",
-        "bitbucket": "https://bitbucket.org/lucasrosinelli",
         "github": "https://github.com/lucasrosinelli",
         "phone": {
             "unformatted": "351965507579",
@@ -39,13 +39,13 @@ let resumeData = {
                 "achievements": [],
                 "more": [
                     "C#", ".NET 5", ".NET Core 3.1", "MongoDB", "xUnit", "Moq",
-                    "ASP.NET Web API", "ASP.NET MVC", "Swagger", "OAuth 2.0", "OIDC",
+                    "ASP.NET Web API", "REST", "ASP.NET MVC", "Swagger", "OAuth 2.0", "OIDC", "Redis",
                     "Angular 10", "React",
                     "Docker", "Kubernetes", "Microservices", "gRPC",
-                    "GitLab with CI/CD pipelines",
+                    "GitLab with CI/CD pipelines", "Snyk", "SonarCloud",
                     "AWS", "Azure",
                     "Prometheus", "Kibana", "Grafana",
-                    "Clean Architecture", "Agile", "Scrum", "XP",
+                    "Clean Architecture", "Agile", "Scrum", "XP", "SDLC",
                     "Jira", "Confluence"
                  ]
             },
@@ -67,12 +67,12 @@ let resumeData = {
                     "Create structured documentation for existing processes in the team"
                 ],
                 "more": [
-                    "C#", ".NET Core (2.0 and 3.1)", "SQL Server", "xUnit", "Moq",
-                    "ASP.NET Web API", "Swagger",
+                    "C#", ".NET Framework (4.6+)", ".NET Core (2.0 and 3.1)", "SQL Server", "Entity Framework", "xUnit", "Moq",
+                    "ASP.NET Web API", "REST", "Swagger",
                     "Angular", "React",
                     "Jenkins",
                     "Kibana", "Grafana",
-                    "Agile", "Scrum",
+                    "Agile", "Scrum", "SDLC",
                     "Jira", "Confluence"
                  ]
             },
@@ -82,22 +82,25 @@ let resumeData = {
                 "from": "September 2012", "to": "March 2019",
                 "description": "",
                 "duties": [
-                    "Innovative by offering eight years of experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions",
-                    "85-90% of products are created using Visual Studio 2015/2017, C# (3.5 and 4.6) and ASP.NET MVC, Web API – all of them are supported by SQL Server and MongoDB databases – version controller: Git"
+                    "Create technical design, technical specifications, documentation of developed code",
+                    "Develop software solutions, new user interfaces, software tools and other applications",
+                    "Review functional specifications and participate in the development of creative ideas for functionality and user interface",
+                    "Research and development of proof of concepts and prototypes for new business opportunities and product's improvements",
+                    "Mentoring and technical leadership to a team of developers",
+                    "Hiring additional personnel",
                 ],
                 "achievements": [
                     "Improvements, performance, and refactoring implemented, focusing on coding readability and maintenance, scalability, and reusability",
-                    "Increased the company’s revenue by introducing a new idea in the real-time data delivery solution for our clients"
+                    "Increased the company's revenue by introducing a new idea in real-time data delivery solution for our clients through a dashboard using SignalR and a mobile app"
                 ],
                 "more": [
-                    "C#", ".NET Standard (3.5 and 4.6)", "SQL Server", "MongoDB", "MySQL", "Dapper", "Entity Framework", "xUnit", "Moq",
-                    "Swagger", "ASP.NET Web API", "ASP.NET MVC", "SignalR", "ASP.NET Web Forms", "Windows Forms", "Windows Services", "WCF", "Silverlight",
+                    "C#", ".NET Framework (2.0, 3.5, 4.5 and 4.6)", "SQL Server", "MongoDB", "MySQL", "Dapper", "Entity Framework", "xUnit", "Moq",
+                    "Swagger", "ASP.NET Web API", "REST", "ASP.NET MVC", "SignalR", "ASP.NET Web Forms", "Windows Forms", "Windows Services", "WCF", "Silverlight",
                     "Angular", "React", "Ionic", "React Native",
                     "DDD", "Git",
                     "AWS", "Mandic (private cloud)",
-                    "Zabbix",
-                    "Agile", "Scrum",
-                    "SolarWinds"
+                    "Zabbix", "SolarWinds",
+                    "Agile", "Scrum", "SDLC"
                  ]
             },
             {
@@ -130,17 +133,22 @@ let resumeData = {
             }
         ],
         "skills": [
-            { "name": "C#", "size": 80, "nameClass": "csharp", "sizeClass": "eigthy" },
-            { "name": ".NET Core", "size": 70, "nameClass": "netcore", "sizeClass": "seventy" },
-            { "name": "ASP.NET MVC (4, 5)", "size": 70, "nameClass": "aspnetmvc", "sizeClass": "seventy" },
+            { "name": "C#", "size": 85, "nameClass": "csharp", "sizeClass": "eigthyfive" },
+            { "name": ".NET", "size": 80, "nameClass": "net", "sizeClass": "eigthy" },
             { "name": "ASP.NET Web API", "size": 80, "nameClass": "aspnetwebapi", "sizeClass": "eigthy" },
-            { "name": "ASP.NET SignalR", "size": 60, "nameClass": "aspnetsignalr", "sizeClass": "sixty" },
-            { "name": "Docker/Docker-Compose", "size": 45, "nameClass": "docker", "sizeClass": "fortyfive" },
+            { "name": "ASP.NET MVC", "size": 80, "nameClass": "aspnetmvc", "sizeClass": "eigthy" },
+            { "name": "SignalR", "size": 60, "nameClass": "signalr", "sizeClass": "sixty" },
+            { "name": "Docker/Docker-Compose", "size": 60, "nameClass": "docker", "sizeClass": "sixty" },
+            { "name": "Microservices", "size": 60, "nameClass": "microservices", "sizeClass": "sixty" },
+            { "name": "Kubernetes", "size": 40, "nameClass": "kubernetes", "sizeClass": "forty" },
+            { "name": "gRPC", "size": 40, "nameClass": "grpc", "sizeClass": "forty" },
             { "name": "Windows Forms", "size": 80, "nameClass": "windowsforms", "sizeClass": "eigthy" },
             { "name": "WPF", "size": 50, "nameClass": "wpf", "sizeClass": "fifty" },
             { "name": "WCF", "size": 50, "nameClass": "wcf", "sizeClass": "fifty" },
-            { "name": "REST/SOAP", "size": 70, "nameClass": "restsoap", "sizeClass": "seventy" },
-            { "name": "Entity Framework", "size": 60, "nameClass": "entityframework", "sizeClass": "sixty" },
+            { "name": "xUnit", "size": 80, "nameClass": "xunit", "sizeClass": "eigthy" },
+            { "name": "Moq", "size": 70, "nameClass": "moq", "sizeClass": "seventy" },
+            { "name": "REST/SOAP", "size": 80, "nameClass": "restsoap", "sizeClass": "eigthy" },
+            { "name": "Entity Framework", "size": 75, "nameClass": "entityframework", "sizeClass": "seventyfive" },
             { "name": "Dapper", "size": 40, "nameClass": "dapper", "sizeClass": "forty" },
             { "name": "JavaScript", "size": 80, "nameClass": "javascript", "sizeClass": "eigthy" },
             { "name": "jQuery", "size": 70, "nameClass": "jquery", "sizeClass": "seventy" },
@@ -156,10 +164,10 @@ let resumeData = {
             { "name": "Ionic", "size": 60, "nameClass": "ionic", "sizeClass": "sixty" },
             { "name": "React Native", "size": 30, "nameClass": "reactnative", "sizeClass": "thirty" },
             { "name": "TFS", "size": 70, "nameClass": "tfs", "sizeClass": "seventy" },
-            { "name": "GIT", "size": 80, "nameClass": "git", "sizeClass": "eigthy" },
-            { "name": "GitLab (with CI/CD)", "size": 70, "nameClass": "gitlab", "sizeClass": "seventy" },
-            { "name": "JIRA", "size": 70, "nameClass": "jira", "sizeClass": "seventy" },
-            { "name": "Confluence", "size": 70, "nameClass": "confluence", "sizeClass": "seventy" },
+            { "name": "GIT", "size": 85, "nameClass": "git", "sizeClass": "eigthyfive" },
+            { "name": "GitLab (with CI/CD)", "size": 75, "nameClass": "gitlab", "sizeClass": "seventyfive" },
+            { "name": "JIRA", "size": 80, "nameClass": "jira", "sizeClass": "eigthy" },
+            { "name": "Confluence", "size": 80, "nameClass": "confluence", "sizeClass": "eigthy" },
             { "name": "Jenkins", "size": 35, "nameClass": "jenkins", "sizeClass": "thirtyfive" },
         ]
     },
