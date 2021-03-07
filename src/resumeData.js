@@ -29,20 +29,19 @@ let resumeData = {
                 "from": "April 2020", "to": "Present",
                 "description": "",
                 "duties": [
-                    "Mentoring and technical leadership to a team of developers",
-                    "Develop software solutions, new user interfaces, software tools and other applications",
-                    "Review functional specifications and participate in the development of creative ideas for functionality and user interface",
-                    "Create technical design, technical specifications, documentation of developed code",
-                    "Hiring additional personnel",
-                    "Client served as 3rd party: Signicat"
+                    "Developed & maintained a containerized Authorization Server using C# and .NET (5 and Core 3.1) deployed through a CI/CD pipeline in AWS and Azure. The system is responsible for supporting both internal and external customers.",
+                    "Reviewed functional specifications and participated in the development of creative ideas for functionality, software solutions & tools, and other applications.",
+                    "Created technical design & specifications, and documentation & review of developed code.",
+                    "Guidance and technical leadership for a team of developers.",
+                    "Client served as 3rd party: Signicat."
                 ],
                 "achievements": [],
                 "more": [
-                    "C#", ".NET 5", ".NET Core 3.1", "MongoDB", "xUnit", "Moq",
+                    "C#", ".NET 5", ".NET Core 3.1", "MongoDB", "Cosmos DB", "xUnit", "Moq",
                     "ASP.NET Web API", "REST", "ASP.NET MVC", "Swagger", "OAuth 2.0", "OIDC", "Redis",
                     "Angular 10", "React",
                     "Docker", "Kubernetes", "Microservices", "gRPC",
-                    "GitLab with CI/CD pipelines", "Snyk", "SonarCloud",
+                    "GitLab with CI/CD pipelines", "Terraform", "Snyk", "SonarCloud",
                     "AWS", "Azure",
                     "Prometheus", "Kibana", "Grafana",
                     "Clean Architecture", "Agile", "Scrum", "XP", "SDLC",
@@ -55,16 +54,13 @@ let resumeData = {
                 "from": "March 2019", "to": "April 2020",
                 "description": "",
                 "duties": [
-                    "Configure new and existing functionalities for Automated Border Control",
-                    "Troubleshooting acceptance and production environments behaviours",
-                    "Assure system correctness testing different devices and projects, according to system specifications and client needs",
-                    "Maintain test scripts updated based on most recent documentation approved",
-                    "Perform all tests required in different environments (Development, SQA, Acceptance and Production) and create specific and detailed reports",
-                    "Hiring additional personnel"
+                    "Developed & maintained new and existing functionalities for Automated Border Control using C# and .NET (Framework 4.6+ and Core 2.0 & 3.1) with troubleshooting acceptance and production environments behaviors.",
+                    "Ensured system correctness through testing different devices and projects, according to system specifications and focused on client’s needs.",
+                    "Maintained test scripts updated based on most recent documentation approved.",
+                    "Performed all tests required in different deployment environments creating specific & detailed reports."
                 ],
                 "achievements": [
-                    "Elaborate and present technical documentation to clients (Dutch Ministry of Justice and Security & Amsterdam Airport Schiphol)",
-                    "Create structured documentation for existing processes in the team"
+                    "Elaborated & presented structured technical documentation to clients (Dutch Ministry of Justice and Security & Amsterdam Airport Schiphol) reestablishing a good relationship with clients and regaining their confidence."
                 ],
                 "more": [
                     "C#", ".NET Framework (4.6+)", ".NET Core (2.0 and 3.1)", "SQL Server", "Entity Framework", "xUnit", "Moq",
@@ -82,16 +78,13 @@ let resumeData = {
                 "from": "September 2012", "to": "March 2019",
                 "description": "",
                 "duties": [
-                    "Create technical design, technical specifications, documentation of developed code",
-                    "Develop software solutions, new user interfaces, software tools and other applications",
-                    "Review functional specifications and participate in the development of creative ideas for functionality and user interface",
-                    "Research and development of proof of concepts and prototypes for new business opportunities and product's improvements",
-                    "Mentoring and technical leadership to a team of developers",
-                    "Hiring additional personnel",
+                    "Developed & maintained many applications & back-end services using C# and .NET (Framework 2.0+, ASP.NET, Web API and windows services) to support company's operation deployed in a cloud infrastructure.",
+                    "Reviewed functional specifications and participated in the development of creative ideas for functionality, software solutions & tools, and other applications.",
+                    "Guidance and technical leadership for a team of developers.",
                 ],
                 "achievements": [
-                    "Improvements, performance, and refactoring implemented, focusing on coding readability and maintenance, scalability, and reusability",
-                    "Increased the company's revenue by introducing a new idea in real-time data delivery solution for our clients through a dashboard using SignalR and a mobile app"
+                    "Refactored legacy code in two core applications increasing the performance by ~35% during the time still an external consultant from DIGISYSTEM.",
+                    "Created a real-time data delivery solution through a dashboard using SignalR and a mobile app increasing company's revenue by ~10%."
                 ],
                 "more": [
                     "C#", ".NET Framework (2.0, 3.5, 4.5 and 4.6)", "SQL Server", "MongoDB", "MySQL", "Dapper", "Entity Framework", "xUnit", "Moq",
@@ -109,13 +102,13 @@ let resumeData = {
                 "from": "October 2006", "to": "August 2012",
                 "description": "",
                 "duties": [
-                    "Analyzed user requirements, and translated client needs into application design",
-                    "Design, code, and support software solutions that can easily be scaled depending on client needs",
-                    "Clients served as 3rd party: IBOPE, SESI/SENAI and NEXXYS"
+                    "Analyzed user requirements, and translated client needs into application design.",
+                    "Design, code, and support software solutions that can easily be scaled depending on client needs.",
+                    "Clients served as 3rd party: IBOPE, SESI/SENAI and NEXXYS."
                 ],
                 "achievements": [
-                    "Reduced project costs by focusing on double-check requirements and create more accurate test processes with code review",
-                    "An excellent work at NEXXYS resulted in a job offer to join their team six months later"
+                    "Reduced project costs by focusing on double-check requirements and create more accurate test processes with code review.",
+                    "An excellent work at NEXXYS resulted in a job offer to join their team six months later."
                 ],
                 "more": []
             },
@@ -125,8 +118,8 @@ let resumeData = {
                 "from": "September 2004", "to": "June 2006",
                 "description": "",
                 "duties": [
-                    "Wrote code to specification in order to build two government-facing web-based applications",
-                    "Maintain product quality by carrying out reviews, performing continual tests, and analyzing feedback"
+                    "Wrote code to specification in order to build two government-facing web-based applications.",
+                    "Maintain product quality by carrying out reviews, performing continual tests, and analyzing feedback."
                 ],
                 "achievements": [],
                 "more": []
