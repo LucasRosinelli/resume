@@ -5,7 +5,7 @@ let resumeData = {
     "fullName": "Lucas Rosinelli da Rocha",
     "shortName": "Lucas Rosinelli",
     "role": "tech lead",
-    "roleDescription": "In a nutshell: I transform an idea into software. Software developer with over 15 years of experience. Driven by high-quality standards, I deliver software solutions to increase processes automation, effectiveness and efficiency on web, desktop, and mobile devices. Bachelor’s degree in Computer Science.",
+    "roleDescription": "In a nutshell: I transform an idea into software. Software developer with over 15 years of experience. Driven by high-quality standards, I deliver software solutions to increase processes automation, effectiveness and efficiency on web, desktop, and mobile devices. Bachelor's degree in Computer Science.",
     "aboutMe": "Passionate about software development. I aim to create, modify, and deliver systems that are maintainable, scalable, reusable, and secure with high-quality standard following market recommendations and best practices. Focused on backend - which I enjoy the most! -, I'm also interested on learning, touching, and working with frontend, quality and DevOps. I hold a Bachelor degree in Computer Science. In my spare time I love to watch movies, watch and play football, assemble jigsaw puzzles and LEGO bricks, play videogames and read books. Last but not least, I LOVE coding (as a profession and also as a hobby).",
     "contact": {
         "linkedIn": "https://br.linkedin.com/in/lucasrosinelli/en",
@@ -24,7 +24,7 @@ let resumeData = {
     "resume": {
         "workExperiences": [
             {
-                "company": "INSCALE", "position": "Tech lead",
+                "company": "Signicat", "position": "Tech lead",
                 "country": "pt", "location": "Lisbon, Portugal",
                 "from": "April 2020", "to": "Present",
                 "description": "",
@@ -32,18 +32,21 @@ let resumeData = {
                     "Developed & maintained a containerized Authorization Server using C# and .NET (5 and Core 3.1) deployed through a CI/CD pipeline in AWS and Azure. The system is responsible for supporting both internal and external customers.",
                     "Reviewed functional specifications and participated in the development of creative ideas for functionality, software solutions & tools, and other applications.",
                     "Created technical design & specifications, and documentation & review of developed code.",
-                    "Guidance and technical leadership for a team of developers.",
-                    "Client served as 3rd party: Signicat."
+                    "Guidance and technical leadership for a team of developers."
                 ],
-                "achievements": [],
+                "achievements": [
+                    "Participated in the group to create a unified brand-new platform for the company.",
+                    "Facilitated the integration of team's solution into the new platform.",
+                    "After 1 year and 5 months working as an external consultant through INSCALE, I accepted an offer to join Signicat."
+                ],
                 "more": [
-                    "C#", ".NET 5", ".NET Core 3.1", "MongoDB", "Cosmos DB", "xUnit", "Moq",
+                    "C#", ".NET 6", ".NET 5", ".NET Core 3.1", "MongoDB", "Cosmos DB", "xUnit", "Moq",
                     "ASP.NET Web API", "REST", "ASP.NET MVC", "Swagger", "OAuth 2.0", "OIDC", "Redis",
                     "Angular 10", "React",
                     "Docker", "Kubernetes", "Microservices", "gRPC",
                     "GitLab with CI/CD pipelines", "Terraform", "Snyk", "SonarCloud",
-                    "AWS", "Azure",
-                    "Prometheus", "Kibana", "Grafana",
+                    "GCP", "Azure", "AWS",
+                    "Prometheus", "Grafana", "Kibana",
                     "Clean Architecture", "Agile", "Scrum", "XP", "SDLC",
                     "Jira", "Confluence"
                  ]
@@ -55,7 +58,7 @@ let resumeData = {
                 "description": "",
                 "duties": [
                     "Developed & maintained new and existing functionalities for Automated Border Control using C# and .NET (Framework 4.6+ and Core 2.0 & 3.1) with troubleshooting acceptance and production environments behaviors.",
-                    "Ensured system correctness through testing different devices and projects, according to system specifications and focused on client’s needs.",
+                    "Ensured system correctness through testing different devices and projects, according to system specifications and focused on client's needs.",
                     "Maintained test scripts updated based on most recent documentation approved.",
                     "Performed all tests required in different deployment environments creating specific & detailed reports."
                 ],
@@ -130,12 +133,12 @@ let resumeData = {
             { "name": ".NET", "size": 80, "nameClass": "net", "sizeClass": "eigthy" },
             { "name": "ASP.NET Web API", "size": 80, "nameClass": "aspnetwebapi", "sizeClass": "eigthy" },
             { "name": "ASP.NET MVC", "size": 80, "nameClass": "aspnetmvc", "sizeClass": "eigthy" },
-            { "name": "SignalR", "size": 60, "nameClass": "signalr", "sizeClass": "sixty" },
-            { "name": "Docker/Docker-Compose", "size": 60, "nameClass": "docker", "sizeClass": "sixty" },
-            { "name": "Microservices", "size": 60, "nameClass": "microservices", "sizeClass": "sixty" },
-            { "name": "Kubernetes", "size": 40, "nameClass": "kubernetes", "sizeClass": "forty" },
+            { "name": "SignalR", "size": 55, "nameClass": "signalr", "sizeClass": "fiftyfive" },
+            { "name": "Docker/Docker-Compose", "size": 75, "nameClass": "docker", "sizeClass": "seventyfive" },
+            { "name": "Microservices", "size": 70, "nameClass": "microservices", "sizeClass": "seventy" },
+            { "name": "Kubernetes", "size": 50, "nameClass": "kubernetes", "sizeClass": "fifty" },
             { "name": "gRPC", "size": 40, "nameClass": "grpc", "sizeClass": "forty" },
-            { "name": "Windows Forms", "size": 80, "nameClass": "windowsforms", "sizeClass": "eigthy" },
+            { "name": "Windows Forms", "size": 75, "nameClass": "windowsforms", "sizeClass": "seventyfive" },
             { "name": "WPF", "size": 50, "nameClass": "wpf", "sizeClass": "fifty" },
             { "name": "WCF", "size": 50, "nameClass": "wcf", "sizeClass": "fifty" },
             { "name": "xUnit", "size": 80, "nameClass": "xunit", "sizeClass": "eigthy" },
@@ -145,7 +148,7 @@ let resumeData = {
             { "name": "Dapper", "size": 40, "nameClass": "dapper", "sizeClass": "forty" },
             { "name": "JavaScript", "size": 80, "nameClass": "javascript", "sizeClass": "eigthy" },
             { "name": "jQuery", "size": 70, "nameClass": "jquery", "sizeClass": "seventy" },
-            { "name": "Bootstrap", "size": 65, "nameClass": "bootstrap", "sizeClass": "sixtyfive" },
+            { "name": "Bootstrap", "size": 55, "nameClass": "bootstrap", "sizeClass": "fiftyfive" },
             { "name": "AngularJS", "size": 50, "nameClass": "angular", "sizeClass": "fifty" },
             { "name": "React", "size": 45, "nameClass": "react", "sizeClass": "fortyfive" },
             { "name": "HTML", "size": 75, "nameClass": "html", "sizeClass": "seventyfive" },
@@ -158,7 +161,10 @@ let resumeData = {
             { "name": "React Native", "size": 30, "nameClass": "reactnative", "sizeClass": "thirty" },
             { "name": "TFS", "size": 70, "nameClass": "tfs", "sizeClass": "seventy" },
             { "name": "GIT", "size": 85, "nameClass": "git", "sizeClass": "eigthyfive" },
-            { "name": "GitLab (with CI/CD)", "size": 75, "nameClass": "gitlab", "sizeClass": "seventyfive" },
+            { "name": "GitLab (with CI/CD)", "size": 85, "nameClass": "gitlab", "sizeClass": "eigthyfive" },
+            { "name": "GCP", "size": 60, "nameClass": "gcp", "sizeClass": "sixty" },
+            { "name": "Azure", "size": 65, "nameClass": "azure", "sizeClass": "sixtyfive" },
+            { "name": "AWS", "size": 55, "nameClass": "aws", "sizeClass": "fiftyfive" },
             { "name": "JIRA", "size": 80, "nameClass": "jira", "sizeClass": "eigthy" },
             { "name": "Confluence", "size": 80, "nameClass": "confluence", "sizeClass": "eigthy" },
             { "name": "Jenkins", "size": 35, "nameClass": "jenkins", "sizeClass": "thirtyfive" },
